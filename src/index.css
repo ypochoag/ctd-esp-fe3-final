@@ -202,7 +202,7 @@ a:hover{
 }
 
 .dark-info-container {
-  background-color: #656868;
+  background-color: #c2c4c4;
   border: 0.5px solid #787878;
 }
 
@@ -231,11 +231,11 @@ td, th {
 }
 
 tr:nth-child(even) {
-  background-color: #dddddd;
+  background-color: #ffffff;
 }
 
 .dark{
-  background-color: #49484896;
+  background-color: #443e3e96;
   color: white;
 }
 .dark > a {
@@ -282,14 +282,14 @@ footer > p{
 
 @media (max-width: 1024px) {
   footer {
-    position: relative; /* Se ajusta según el contenido en pantallas pequeñas */
+    position: relative; 
   }
 }
 
 @media (max-width: 600px) {
   footer {
     flex-direction: column;
-    height: auto; /* Ajuste dinámico de altura */
+    height: auto;
     text-align: center;
     padding: 1rem;
   }

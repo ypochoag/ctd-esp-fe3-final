@@ -15,11 +15,12 @@ const Detail = () => {
     margin: '20px auto',
     borderCollapse: 'collapse',
     fontFamily: 'Arial, sans-serif',
-    border: '1px solid #ddd'
+    border: '1px solid #fff'
   };
   
   const sectionTitleStyle = {
-    backgroundColor: state.theme ? '#c79595' : '#1a1a1a',
+    backgroundColor: state.theme ? '#c365c3bf' : '#1a1a1a',
+    color: state.theme ? '#004' : '#ffff',
     fontWeight: 'bold'
   };
 
@@ -58,30 +59,6 @@ const Detail = () => {
                 </tr>
                 <tr style={sectionTitleStyle}>
                     <th colSpan="2">Datos de contacto</th>
-                </tr>
-                <tr>
-                    <th>Calle</th>
-                    <td>{dentist['address']?.['street'] ?? 'N/A'}</td>
-                </tr>
-                <tr>
-                    <th>Suite</th>
-                    <td>{dentist['address']?.['suite'] ?? 'N/A'}</td>
-                </tr>
-                <tr>
-                    <th>Ciudad</th>
-                    <td>{dentist['address']?.['city'] ?? 'N/A'}</td>
-                </tr>
-                <tr>
-                    <th>Código Postal</th>
-                    <td>{dentist['address']?.['zipcode'] ?? 'N/A'}</td>
-                </tr>
-                <tr>
-                    <th>Latitud</th>
-                    <td>{dentist['address']?.['geo']?.['lat'] ?? 'N/A'}</td>
-                </tr>
-                <tr>
-                    <th>Longitud</th>
-                    <td>{dentist['address']?.['geo']?.['lng'] ?? 'N/A'}</td>
                 </tr>
                 <tr>
                     <th>Teléfono</th>
