@@ -18,7 +18,6 @@ export const Context = ({ children }) => {
     axios.get('https://jsonplaceholder.typicode.com/users')
       .then(res => {
         dispatch({ type: 'GET_CHARS', payload: res.data })
-        //setList(res.data);
       })
       .catch(error => {
         console.error('Error fetching data:', error); 
