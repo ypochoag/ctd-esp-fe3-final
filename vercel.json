@@ -1,8 +1,8 @@
 {
     "rewrites": [
         {
-            "source": "/ctd-fe3-final/(.*)",
-            "destination": "/ctd-fe3-final/index.html"
+            "source": "/(.*)",
+            "destination": "/"
         }
     ]
 }
