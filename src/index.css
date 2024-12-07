@@ -246,6 +246,7 @@ tr:nth-child(even) {
 footer {
   background-color: #7f81c7;
   display: flex;
+  position: absolute;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
