@@ -21,7 +21,7 @@ const Card = ({ name, username, id }) => {
       </Link>
       <span className="id-indicator">{id}</span>
       <button onClick={addFav} className="favButton">
-        {stored ?"🧡" : "🤍"}
+        {stored ?"😀" : "⚪"}
       </button>
     </div>
   );

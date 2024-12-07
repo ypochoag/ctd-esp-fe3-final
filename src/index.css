@@ -163,8 +163,8 @@ a:hover{
   border: none;
   border-radius: 10px;
   position: absolute;
-  top: 14px;
-  right: 15px;
+  bottom: 10px;
+  right: 10px;
   transition: transform 0.3s ease;
 }
 
@@ -174,17 +174,15 @@ a:hover{
 
 .id-indicator {
   position: absolute;
-  top: 0;
-  left: 0;
-  background-color: #dbd2d2;
-  border: 0.5px solid #dbd2d2;
+  top: 65px;
+  font-weight: bold;
+  font-size: 30px;
   width: 40px;
   height: 40px;
-  border-radius: 15px 5px;
+  border-radius: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 18px;
   color:#5f5b5b
 }
 
